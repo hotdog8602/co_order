@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: admin1acr.azurecr.io/order:latest
+          image: admin1acr.azurecr.io/order
           ports:
             - containerPort: 8080
           readinessProbe:
